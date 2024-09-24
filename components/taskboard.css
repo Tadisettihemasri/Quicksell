@@ -1,0 +1,117 @@
+.task-board {
+    font-family: Arial, sans-serif;
+    background-color: #f4f5f7;
+    padding: 20px;
+    color: black;
+  }
+  
+  .board-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .display-dropdown, .filter-option {
+    background-color: white;
+    border: 1px solid #838181;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .dropdown-arrow {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+  
+  .filter-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dropdown-value {
+    font-weight: bold;
+    margin: 0 5px;
+  }
+  
+  .board-columns {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .task-column {
+    background-color: #f4f5f7;
+    border-radius: 8px;
+    width: 280px;
+  }
+  
+  .column-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .column-title {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .task-count {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 14px;
+  }
+  
+  .add-task, .more-options {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: auto;
+  }
+  
+  .task-list {
+    padding: 10px;
+  }
+  
+  .task-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  }
+  
+  .task-id {
+    color: #67686a;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .task-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .task-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-tag {
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+  
+  .task-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }

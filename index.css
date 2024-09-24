@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  color: white; /* Text color set to black */
+  /* background-color: #fbf6f6; Background color set to white */
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+}
+
+.kanban-column {
+  width: 30%;
+  padding: 10px;
+}
+
+.ticket-card {
+  /* background-color: rgb(133, 125, 125); */
+  /* border: 1px solid #ddd; */
+  font-size: 15px;
+  color:white;
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
